@@ -1,0 +1,16 @@
+services:
+  sampleapi:
+    build:
+      context: /Users/selmanhanci/Projects/SampleMinimalAPI
+      dockerfile: SampleAPI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: sampleapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/selmanhanci/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/selmanhanci/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

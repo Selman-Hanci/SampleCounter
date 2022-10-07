@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{8AAA3356-E58A-492D-A76D-1422DFB99630}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../SampleInfrastructure/Persistence/Contexts/DefaultDBContext.cs">
+    <Files>
+      <File FileName="SampleAPI/Controllers/WeatherForecastController.cs" Line="28" Column="30" />
+      <File FileName="SampleAPI/Program.cs" Line="12" Column="58" />
+      <File FileName="SampleAPI/Extensions/ProgramExtension.cs" Line="12" Column="39" />
+      <File FileName="../SampleInfrastructure/Persistence/Contexts/DefaultDBContext.cs" Line="4" Column="15" />
+      <File FileName="../SampleDomain/Entities/Number.cs" Line="4" Column="24" />
+      <File FileName="../SampleDomain/Entities/BaseKeyEntity.cs" Line="8" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sample" expanded="True" selected="True">
+            <Node name="docker-compose" expanded="True" />
+            <Node name="SampleAPI" expanded="True">
+              <Node name="Extensions" expanded="True" />
+            </Node>
+            <Node name="SampleBusiness" expanded="True" />
+            <Node name="SampleDomain" expanded="True">
+              <Node name="Entities" expanded="True" />
+            </Node>
+            <Node name="SampleInfrastructure" expanded="True">
+              <Node name="Persistence" expanded="True">
+                <Node name="Contexts" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="SampleTest" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="SampleMinimalAPI" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.SampleAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
