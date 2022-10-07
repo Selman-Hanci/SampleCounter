@@ -19,7 +19,10 @@ namespace SampleBusiness.Services
 
         public async Task<int> Increase(CancellationToken cancellationToken = default)
         {
-            var result = await _numberRepository.GetLastNumberAsync(cancellationToken);
+            //var result = await _numberRepository.GetLastNumberAsync(cancellationToken);
+
+            var result = new Number();
+            result.Current = 1;
 
             var number = result != null ? result.Current : int.MinValue;
 
