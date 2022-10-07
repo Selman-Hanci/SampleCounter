@@ -29,7 +29,6 @@ public class CalculatorController : ControllerBase
         return Ok(result);
 
         // TODO:
-        // user enters param
         // logger middleware
         // error handling middleware
         // ci cd with jenkins
