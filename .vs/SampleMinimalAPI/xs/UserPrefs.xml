@@ -1,38 +1,18 @@
-﻿<Properties StartupConfiguration="{8AAA3356-E58A-492D-A76D-1422DFB99630}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/selmanhanci/Projects/SampleBusiness/Services/CalculatorService.cs" line="20" column="1" />
-      <Breakpoint file="/Users/selmanhanci/Projects/SampleMinimalAPI/SampleTest/UnitTest.cs" relfile="SampleTest/UnitTest.cs" line="16" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SampleAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties StartupConfiguration="{66FA5BFE-6D40-46A8-A74B-0A6C404DD2A0}|Default" GitUserInfo="UsingGIT">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SampleAPI/Extensions/ProgramExtension.cs">
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
     <Files>
-      <File FileName="SampleBusiness/Services/CalculatorService.cs" Line="27" Column="10" />
-      <File FileName="SampleAPI/appsettings.Development.json" Line="9" Column="29" />
-      <File FileName="SampleAPI/Extensions/ProgramExtension.cs" Line="20" Column="12" />
-      <File FileName="SampleInfrastructure/Persistence/Contexts/DefaultDBContext.cs" Line="9" Column="18" />
+      <File FileName="SampleAPI/Middlewares/LoggingMiddleware.cs" Line="11" Column="33" />
+      <File FileName="SampleInfrastructure/Persistence/Contexts/DefaultDBContext.cs" Line="11" Column="16" />
+      <File FileName="SampleBusiness/Services/CalculatorService.cs" Line="21" Column="1" />
+      <File FileName=".gitignore" Line="53" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SampleMinimalAPI" expanded="True">
-            <Node name="SampleAPI" expanded="True">
-              <Node name="Extensions" expanded="True">
-                <Node name="ProgramExtension.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="SampleInfrastructure" expanded="True">
-              <Node name="Persistence" expanded="True">
-                <Node name="Contexts" expanded="True" />
-                <Node name="Repositories" expanded="True">
-                  <Node name="Interfaces" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
+          <Node name="SampleMinimalAPI" expanded="True" selected="True">
+            <Node name="SampleAPI" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -41,16 +21,18 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="SampleMinimalAPI" expanded="True">
-            <Node name="SampleTest" expanded="True">
-              <Node name="SampleTest" expanded="True">
-                <Node name="UnitTest" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="SampleMinimalAPI" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.SampleAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/selmanhanci/Projects/SampleBusiness/Services/CalculatorService.cs" line="20" column="1" />
+      <Breakpoint file="/Users/selmanhanci/Projects/SampleMinimalAPI/SampleTest/UnitTest.cs" relfile="SampleTest/UnitTest.cs" line="16" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
